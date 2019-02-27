@@ -19,6 +19,19 @@ public class DoublyLinkedList {
            private int size = 0;
            private Node head = null;
            private Node tail = null;
-           
+
+        public static void main(String[] args) {
+            DoublyLinkedList linkedList = new DoublyLinkedList();
+            System.out.println(linkedList);
+        }
+
+        @Override
+        public String toString() {
+            StringBuilder response = new StringBuilder();
+            response.append("[");
+            response.append("]");
+            return response.toString();
+
+        }
     }
 }
